@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    opacity: 0.8;
+    background-image: url('https://images.cdn4.stockunlimited.net/preview1300/cinema-background-with-movie-objects_1823382.jpg')
+    
+}
+    
+nav a{
+    font-size: 22px;
+color: #000;}
+
+.container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+@media(max-width: 768px){
+
+    .card-deck  {
+        max-width: 600px;
+        height: 200px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .card{
+        max-width: 300px;
+        text-align: center;
+    }
+
+}
+
+.card{
+    text-align: center;
+    
+}
+
+.card:hover{
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+.card-img-top {
+    height: 200px!important;
+}
+
